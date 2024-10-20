@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="utf-8">
+		<title></title>
+		<style>
+			body{
+				background-image: url(img/8.1.jpg);
+				background-size: cover;
+				background-attachment: fixed;
+				display: flex;
+				align-items: center;
+				justify-content: center;
+			}
+			#div1{
+				margin-top: 10%;
+				display: flex;
+				width: 540px;
+				height: 350px;
+				background-color: transparent;
+				border: 5px solid #f1f1f1;
+			    align-items: center;
+				justify-content: center;
+			}
+			form{
+				
+			}
+			h1{
+				position: relative;
+				left: 65px;
+				font-size:40px;
+				color: white;
+			}
+			input{
+				display: block;
+				margin: 25px;
+				width: 200px;
+				height: 27px;
+				opacity: 0.84;
+			}
+			#button{
+				width: 75px;
+				height: 38px;
+				font-size: 18px;
+				position: relative;
+				left: 50px;
+				opacity: 0.95;
+				border-radius: 5px;
+				border-style: none;
+				transition: 0.4s;
+				cursor: pointer;
+			}
+			#button:hover{
+				border-radius: 12px;
+				transition: 0.4s;
+				opacity: 0.8;
+			}
+			a{
+				text-decoration: none;
+				color: #dfe2ef;
+				font-size: 16px;
+			}
+			#background{
+				z-index: -1;
+				position: absolute;
+				bottom: 35.3%;
+				right: 32.5%;
+				width: 540px;
+				height: 350px;
+				background-color: #d3d3d3;
+				opacity: 0.1;
+			}
+		</style>
+	</head>
+	<body>
+		<div id="div1">
+			<form>
+				<h1>Login</h1>
+			    <input type="text" placeholder="账号"/>
+			    <input type="password" placeholder="密码"/>
+				<input id="button" type="submit" value="登录"/>
+				<a href="#" style="margin-left: 20px;">忘记密码</a>
+				<a href="zhuce.html" style="margin-left: 100px;">注册</a>
+			    <div id="background"></div>
+			</form>
+		</div>
+	</body>
+</html>

@@ -1,0 +1,157 @@
+*{
+	margin: 0;
+	padding: 0;
+}
+header{
+	height: 8vh;
+	background-color: #DFE2EF;
+	opacity: 0.45;
+}
+header h1{
+	position: relative;
+	top: 8px;
+	left: 3%;
+}
+#logo{
+	position: absolute;
+	width: 170px;
+	height: 57px;
+	top: 4px;
+	right: 5%;
+	opacity: 0.95;
+}
+body{
+	background-size: cover;
+	background-image: url(../img/8.5.jpg);
+	background-attachment: fixed;
+}
+#playing{
+	text-align: center;
+	margin-top: 3.5%;
+}
+#playing img{
+	width: 320px;
+	height: 310px;
+	position: relative;
+	right: 16%;
+	border-radius: 19px;
+	border: 3.5px solid #ebebeb;
+	opacity: 0.92;
+}
+#text{
+	position: absolute;
+	right: 30%;
+	top: 19%;
+	width: 20%;
+	height: 23%;
+	color: #1c1c1c;
+}
+#p1{
+	font-size: 32px;
+	margin-top: 25px;
+}
+#p2{
+	font-size: 20px;
+	margin-top: 15px;
+}
+#p3{
+	font-size: 20px;
+	margin-top: 34px;
+}
+#playing audio{
+	position: absolute;
+	top: 47.5%;
+	right: 27%;
+	width: 27%;
+	opacity: 0.8;
+}
+#div3{
+	float: left;
+	width: 62vw;
+	height: 56.5vh;
+	margin-left: 7%;
+	background-color: #f0f0f1;
+	margin-top: 15px;
+	opacity: 0.79;
+	border-radius: 15px;
+}
+#div3>img{
+	position: absolute;
+	left: 8%;
+	width: 56px;
+	opacity: 0.8;
+}
+#div3 p{
+	font-size: 30px;
+	margin-left: 65px;
+	margin-bottom: 7px;
+	margin-top: 2px;
+}
+table{
+	margin-left: 20px;
+	border: 2px solid #5a5a5a;
+	border-radius: 10px;
+}
+table audio{
+	height: 35px;
+	width: 330px;
+}
+table th{
+	font-size: 20px;
+	padding-left: 20px;
+	font-weight: 500;
+	text-align: left;
+}
+table th:first-child{
+	padding-left: 0;
+}
+table td{
+	padding-left: 10px;
+	padding-top: 10px;
+	width: 90px;
+	font-size: 15px;
+	text-align: center;
+}
+.p{
+	padding-left: 52px;
+}
+#div4{
+	float: left;
+	width: 21vw;
+	height: 55vh;
+	margin-left: 70px;
+	margin-top: 25px;
+	background-color: #fffffb;
+	border-radius: 15px;
+	opacity: 0.8;
+}
+#div4>p{
+	font-size: 30px;
+	margin-top: 5px;
+	margin-left: 15px;
+}
+.artist{
+	height: 115px;
+	margin-top: 8px;
+	margin-left: 18px;
+}
+.artist img{
+	margin: 10px;
+	width: 102px;
+	border: 2px white solid;
+	border-radius: 70px;
+}
+.artist p{
+	position: relative;
+	left: 14.5%;
+	bottom: 114px;
+	text-align: center;
+	margin-top: 5px;
+}
+.hang{
+	transition: 0.5s;
+}
+.hang:hover{
+	transform: scale(1.03);
+	transition: 0.5s;
+}
